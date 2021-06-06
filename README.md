@@ -1,11 +1,5 @@
 # flutter_random_user
 
-<<<<<<< HEAD
-static data from https://randomuser.me/..
-
-## Getting Started
-
-=======
 static Data Random user https://randomuser.me/
 
     var users = userGenerator(
@@ -15,4 +9,3 @@ static Data Random user https://randomuser.me/
     		     );
     
     users.forEach((user) {print(user.loremIpsum);});
->>>>>>> 4fcb6eb7958d3fd742bce7a3afdb257831b68b07
