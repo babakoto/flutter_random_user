@@ -1,6 +1,6 @@
 # flutter_random_user
 
-static Data Random user https://randomuser.me/
+Flutter_Random_user = Random_user (https://randomuser.me) + loremipsum 
 
     var users = userGenerator(
     		    max: 3, // generate 3 user 
@@ -9,3 +9,8 @@ static Data Random user https://randomuser.me/
     		     );
     
     users.forEach((user) {print(user.loremIpsum);});
+
+
+
+
+[<img src="https://github.com/babakoto/flutter_random_user/blob/main/random.png">](image random user/)
