@@ -17,5 +17,4 @@
       //  users.first.loremIpsum;
 
 
-
-[<img src="https://github.com/babakoto/flutter_random_user/blob/main/random.png">](image random user/)
+![](https://github.com/babakoto/flutter_random_user/blob/main/random.png)
