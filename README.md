@@ -1,14 +1,11 @@
 # flutter_random_user
 
-A new Flutter project.
+static Data Random user https://randomuser.me/
 
-## Getting Started
-
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+    List users = userGenerator(
+    		    max: 3, // generate 3 user 
+    		    loremIpsumParagraphs: 1,  // generate loremIpsum with 1 paragraph
+    		     loremIpsumWords: 100 // generate loremIpsum with 100 words
+    		     );
+    
+    users.forEach((user) {print(user.loremIpsum);});
